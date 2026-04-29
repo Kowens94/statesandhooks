@@ -11,7 +11,7 @@ function App() {
   };
   return (
     <div className="App">
-      
+      <p> Just a little change</p>
       <Simplecounter />
       <Forminput  text={inputValue} setText={handleChange} />
       <p>Value entered: {inputValue}</p>
